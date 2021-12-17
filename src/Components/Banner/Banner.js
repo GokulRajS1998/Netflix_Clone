@@ -2,6 +2,10 @@ import React from 'react';
 import './Banner.css';
 
 function Banner() {
+    useEffect(() => {
+      
+    }, [])
+
     return (
         <div className='banner'>
             <div className='content'>
@@ -17,4 +21,4 @@ function Banner() {
     )
 }
 
-export default Banner
+export default Banner;
